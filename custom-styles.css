@@ -1,0 +1,37 @@
+  .banner-inicio-sr {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-inicio-sr figure {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .banner-inicio-sr .icon-secure {
+    width: 100px;
+    height: 90px;
+    margin-right: 10px;
+    margin-bottom: 10px
+  }
+
+  .banner-inicio-sr .icon-map {
+    width: 100px;
+    height: 90px
+  }
+
+  .banner-inicio-sr .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  .banner-inicio-sr .text-wrapper {
+    width: 90%;
+    margin: auto;
+  }
