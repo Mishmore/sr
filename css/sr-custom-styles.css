@@ -67,6 +67,10 @@
   }
 }
 
+.seccion-contacto-custom p {
+  margin: 2rem 0;
+}
+
 .seccion-contacto-custom .icon-wsp {
   font-size: 22px;
   margin-right: 5px;
