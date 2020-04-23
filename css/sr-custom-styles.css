@@ -50,7 +50,7 @@
   }
 
   #div_wdgt_03 {
-    margin: none;
+    margin: none !important;
   }
 }
 
