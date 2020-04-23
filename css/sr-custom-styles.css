@@ -55,6 +55,10 @@
 }
 
 /* Seccion contacto */
+.form_contact .form-control {
+  margin-bottom: 2rem !important;
+}
+
 .seccion-contacto-custom {
   color: rgb(85, 85, 85);
   font-family: 'FuenteCuerpo' !important;
