@@ -1,37 +1,110 @@
+* {
+  font-family: 'FuenteCuerpo', sans-serif;
+}
+
+/* Banner inicio */
+.banner-inicio-sr {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-inicio-sr figure {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.banner-inicio-sr .icon-secure {
+  height: 90%;
+}
+
+.banner-inicio-sr .icon-map {
+  width: 100%;
+  height: 90%
+}
+
+.banner-inicio-sr .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.banner-inicio-sr .text-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
   .banner-inicio-sr {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 30px;
   }
 
   .banner-inicio-sr figure {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
   }
 
-  .banner-inicio-sr .icon-secure {
-    width: 100px;
-    height: 90px;
-    margin-right: 10px;
-    margin-bottom: 10px
+  #div_wdgt_03 {
+    margin: none;
   }
+}
 
-  .banner-inicio-sr .icon-map {
-    width: 100px;
-    height: 90px
-  }
+/* Seccion contacto */
+.seccion-contacto-custom {
+  color: rgb(85, 85, 85);
+  font-family: 'FuenteCuerpo' !important;
+  margin-top: 78px;
+}
 
-  .banner-inicio-sr .title {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #333;
+@media (max-width: 768px) {
+  .seccion-contacto-custom {
+    margin-top: 0;
   }
+}
 
-  .banner-inicio-sr .text-wrapper {
-    width: 90%;
-    margin: auto;
-  }
+.seccion-contacto-custom .icon-wsp {
+  font-size: 22px;
+  margin-right: 5px;
+  width: 15px;
+  color: rgb(13, 193, 67);
+}
+
+.seccion-contacto-custom .icon-mail {
+  color: rgb(152, 152, 152);
+  font-size: 14px;
+  margin-right: 3px;
+  width: 15px;
+}
+
+.seccion-contacto-custom ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.seccion-contacto-custom ul li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-family: 'FuenteCuerpo' !important;
+}
+
+.seccion-contacto-custom ul li span {
+  font-family: inherit
+}
+
+.seccion-contacto-custom figure {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.seccion-contacto-custom svg {
+  width: 100%;
+  height: 100%;
+}
