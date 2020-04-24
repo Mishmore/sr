@@ -152,3 +152,11 @@
   text-decoration: none;
   font-family: 'FuenteCuerpo', sans-serif !important
 }
+
+.seccion-delivery-custom .footer {
+  text-align: center;
+}
+
+.seccion-delivery-custom .footer .lema {
+  color: #b6b8f2 !important;
+}
