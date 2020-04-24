@@ -141,13 +141,13 @@
   margin: 30px 0;
   text-align: center;
 
-  text-transform: none;
+  /* text-transform: none;
   font-size: 4rem;
   color: #000 !important;
 
   @media (max-width: 768px) {
     font-size: 2.8rem;
-  }
+  } */
 }
 
 .seccion-delivery-custom h4 {
@@ -256,7 +256,12 @@
 
 .design_price .label-oferta {
   background: #fb5014;
-  top: 15px;
+  top: 10px;
+  right: 10px;
+}
+
+.design_price .label-oferta::before {
+  display: none !important;
 }
 
 /* Galería de inicio */
