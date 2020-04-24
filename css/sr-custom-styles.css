@@ -169,6 +169,10 @@
 
 /* Breadcrumb */
 
+.page_breadcrumb {
+  margin: 20px auto !important;
+}
+
 .page_breadcrumb a {
   font-family: inherit;
 }
@@ -176,4 +180,19 @@
 .page_breadcrumb b {
   font-family: inherit;
   font-weight: bold;
+}
+
+/* Dropdown */
+.dropdown.m_s__tienda .dropdown-menu {
+  display: block;
+  box-shadow: none;
+  top: 29px;
+  padding: 12px 0 !important;
+  margin: 0;
+  border: none;
+}
+
+.dropdown.m_s__tienda .dropdown-menu li a {
+  font-family: 'FuenteCuerpo' !important;
+  color: #000 !important;
 }
