@@ -144,7 +144,7 @@
 
 .seccion-delivery-custom h4 {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 15px;
   color: #333 !important;
 }
 
@@ -184,7 +184,6 @@
 
 /* Dropdown */
 .dropdown.m_s__tienda .dropdown-menu {
-  display: block;
   box-shadow: none;
   top: 29px;
   padding: 12px 0 !important;
