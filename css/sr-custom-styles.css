@@ -158,12 +158,13 @@
   color: #000;
 }
 
-.seccion-delivery-custom .footer {
-  text-align: center;
+.seccion-delivery-custom .footer p {
+  text-align: center !important;
 }
 
 .seccion-delivery-custom .footer .lema {
   color: #b6b8f2 !important;
+  text-align: center !important;
 }
 
 /* Breadcrumb */
