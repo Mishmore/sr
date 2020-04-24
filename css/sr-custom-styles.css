@@ -171,5 +171,9 @@
 
 .page_breadcrumb a {
   font-family: inherit;
+}
+
+.page_breadcrumb b {
+  font-family: inherit;
   font-weight: bold;
 }
