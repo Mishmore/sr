@@ -124,3 +124,18 @@
   width: 100%;
   height: 100%;
 }
+
+/* Sección info de entrega */
+.seccion-delivery-custom {
+  font-family: 'FuenteCuerpo', sans-serif !important
+}
+
+.seccion-delivery-custom h3 {
+  color: #b6b8f2;
+}
+
+.seccion-delivery-custom a {
+  color: #b6b8f2;
+  text-decoration: none;
+  font-family: 'FuenteCuerpo', sans-serif !important
+}
