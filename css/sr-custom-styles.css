@@ -169,15 +169,18 @@
 
 /* Breadcrumb */
 
-.page_breadcrumb {
+.page_breadcrumb,
+.bredcrumb {
   margin: 20px auto !important;
 }
 
-.page_breadcrumb a {
+.page_breadcrumb a,
+.bredcrumb a {
   font-family: inherit;
 }
 
-.page_breadcrumb b {
+.page_breadcrumb b,
+.bredcrumb b {
   font-family: inherit;
   font-weight: bold;
 }
@@ -214,6 +217,11 @@
 
 .box_design_full {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 48px;
 }
 
 #store_products h3,
