@@ -204,6 +204,10 @@
   text-shadow: none;
 }
 
+.box_design_full .design_name a {
+  color: #333 !important;
+}
+
 #store_products h3,
 #store_products a {
   font-family: 'FuenteCuerpo' !important;
@@ -211,4 +215,11 @@
 
 #sidebar_filter {
   margin-top: 32px;
+}
+
+.box_design_full .design_price span {
+  font-family: 'FuenteCuerpo' !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin: 0 !important;
 }
