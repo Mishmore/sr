@@ -219,7 +219,8 @@
 
 .box_design_full .design_price span {
   font-family: 'FuenteCuerpo' !important;
-  font-size: 16px !important;
+  font-size: 20px !important;
   font-weight: bold !important;
   margin: 0 !important;
+  color: #b6b8f2;
 }
