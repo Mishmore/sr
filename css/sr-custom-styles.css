@@ -208,6 +208,14 @@
   color: #333 !important;
 }
 
+.box_design_full .design_name {
+  padding: 12px 14px;
+}
+
+.box_design_full {
+  padding: 0;
+}
+
 #store_products h3,
 #store_products a {
   font-family: 'FuenteCuerpo' !important;
