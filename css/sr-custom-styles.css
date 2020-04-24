@@ -140,6 +140,14 @@
   color: #b6b8f2;
   margin: 30px 0;
   text-align: center;
+
+  text-transform: none;
+  font-size: 4rem;
+  color: #000 !important;
+
+  @media (max-width: 768px) {
+    font-size: 2.8rem;
+  }
 }
 
 .seccion-delivery-custom h4 {
@@ -239,4 +247,26 @@
   font-weight: bold !important;
   margin: 0 !important;
   color: #b6b8f2;
+}
+
+.box_design_full strong.price-range {
+  color: #fb5014;
+  font-size: 20px;
+}
+
+.design_price .label-oferta {
+  background: #fb5014;
+  top: 15px;
+}
+
+/* Galería de inicio */
+.box_design_full .design_descriptc {
+  display: none;
+}
+
+.section-products h1 {
+  margin: 20px 0;
+  font-size: 4.5rem;
+  text-transform: none;
+  letter-spacing: .01rem;
 }
