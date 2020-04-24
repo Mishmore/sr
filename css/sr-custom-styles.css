@@ -127,15 +127,28 @@
 
 /* Sección info de entrega */
 .seccion-delivery-custom {
-  font-family: 'FuenteCuerpo', sans-serif !important
+  font-family: 'FuenteCuerpo', sans-serif !important;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.seccion-delivery-custom div {
+  margin-bottom: 2.5rem;
 }
 
 .seccion-delivery-custom h3 {
   color: #b6b8f2;
+  margin: 30px 0;
+  text-align: center;
 }
 
-.seccion-delivery-custom a {
-  color: #b6b8f2;
+.seccion-delivery-custom h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.seccion-delivery-custom div p a {
+  color: #b6b8f2 !important;
   text-decoration: none;
   font-family: 'FuenteCuerpo', sans-serif !important
 }
