@@ -195,3 +195,11 @@
   font-family: 'FuenteCuerpo' !important;
   color: #333 !important;
 }
+
+/* Tienda */
+.box_design_full .design_name a,
+.clss_por.label-oferta,
+.box_design_full .design_price .price-range {
+  font-family: 'FuenteCuerpo' !important;
+  text-shadow: none;
+}
