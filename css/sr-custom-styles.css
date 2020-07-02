@@ -309,3 +309,7 @@
   overflow: hidden;
   margin-top: 0;
 }
+
+#contenedor-box-widgt-pro .box_design_full .box-design-info .design_name a {
+  font-size: 13px;
+}
