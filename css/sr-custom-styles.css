@@ -292,3 +292,20 @@
 .box_design_full .design_price b {
   margin: 0 !important;
 }
+
+#contenedor-box-widgt-pro .box_design_full .box-design-info .design_name {
+  position: relative;
+  height: 75px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#contenedor-box-widgt-pro .box_design_full .box-design-info {
+  height: 75px;
+  min-height: auto;
+  overflow: hidden;
+  margin-top: 0;
+}
