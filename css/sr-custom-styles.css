@@ -222,9 +222,10 @@
 
 .box_design_full .design_name {
   padding: 0 14px;
-  height: 70px;
+  height: 75px;
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
 .box_design_full {
@@ -247,6 +248,10 @@
 
 .box_design_full .design_price {
   height: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .box_design_full .design_price span {
@@ -282,4 +287,8 @@
   font-size: 4.5rem;
   text-transform: none;
   letter-spacing: 0.01rem;
+}
+
+.box_design_full .design_price b {
+  margin: 0 !important;
 }
