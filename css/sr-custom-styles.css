@@ -234,6 +234,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: start;
+  height: 365px !important;
   /* padding-bottom: 48px; */
 }
 
