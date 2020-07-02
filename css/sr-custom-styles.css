@@ -309,6 +309,16 @@
   min-height: auto;
   overflow: hidden;
   margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedor-box-widgt-pro .box_design_full .design_price {
+  margin: 0;
+  padding: 0;
+  height: 70px;
 }
 
 #contenedor-box-widgt-pro .box_design_full .box-design-info .design_name a {
