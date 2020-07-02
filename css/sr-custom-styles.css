@@ -324,3 +324,9 @@
 #contenedor-box-widgt-pro .box_design_full .box-design-info .design_name a {
   font-size: 13px;
 }
+
+media (max-width: 767px) {
+  #contenedor-box-widgt-pro .box_design_full {
+    height: calc(370px + 70px + 70px) !important;
+  }
+}
