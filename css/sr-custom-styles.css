@@ -23,7 +23,7 @@
 
 .banner-inicio-sr .icon-map {
   width: 100%;
-  height: 90%
+  height: 90%;
 }
 
 .banner-inicio-sr .title {
@@ -63,7 +63,7 @@
   background: #000;
   margin: 10rem auto 2rem;
   display: block;
-  padding: .8rem 2.5rem;
+  padding: 0.8rem 2.5rem;
   font-size: 1.5rem;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .seccion-contacto-custom ul li span {
-  font-family: inherit
+  font-family: inherit;
 }
 
 .seccion-contacto-custom figure {
@@ -159,7 +159,7 @@
 .seccion-delivery-custom div p a {
   color: #b6b8f2 !important;
   text-decoration: none;
-  font-family: 'FuenteCuerpo', sans-serif !important
+  font-family: 'FuenteCuerpo', sans-serif !important;
 }
 
 .seccion-delivery-custom div p {
@@ -217,10 +217,14 @@
 
 .box_design_full .design_name a {
   color: #333 !important;
+  font-size: 13px;
 }
 
 .box_design_full .design_name {
-  padding: 12px 14px;
+  padding: 0 14px;
+  height: 70px;
+  display: flex;
+  align-items: center;
 }
 
 .box_design_full {
@@ -229,7 +233,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 48px;
+  /* padding-bottom: 48px; */
 }
 
 #store_products h3,
@@ -241,9 +245,13 @@
   margin-top: 32px;
 }
 
+.box_design_full .design_price {
+  height: 60px;
+}
+
 .box_design_full .design_price span {
   font-family: 'FuenteCuerpo' !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
   font-weight: bold !important;
   margin: 0 !important;
   color: #b6b8f2;
@@ -251,7 +259,7 @@
 
 .box_design_full strong.price-range {
   color: #fb5014;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .design_price .label-oferta {
@@ -273,5 +281,5 @@
   margin: 20px 0;
   font-size: 4.5rem;
   text-transform: none;
-  letter-spacing: .01rem;
+  letter-spacing: 0.01rem;
 }
