@@ -332,7 +332,7 @@ media (max-width: 767px) {
 }
 
 .box_design_full .img_static img {
-  max-height: 210px;
+  max-height: 210px !important;
 }
 
 #contenedor-box-widgt-pro .box_design_full .img_static img {
