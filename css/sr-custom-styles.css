@@ -330,3 +330,11 @@ media (max-width: 767px) {
     height: calc(370px + 70px + 70px) !important;
   }
 }
+
+.box_design_full .img_static img {
+  max-height: 210px;
+}
+
+#contenedor-box-widgt-pro .box_design_full .img_static img {
+  margin: 20px auto;
+}
