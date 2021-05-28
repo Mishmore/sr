@@ -344,5 +344,5 @@ media (max-width: 767px) {
 }
 
 #div_wdgt_10 .title-h2 {
-  background-color: #d6c1d8;
+  background-color: #d6c1d8 !important;
 }
